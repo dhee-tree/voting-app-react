@@ -1,0 +1,88 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+section {
+    text-align: center;
+}
+
+.vote {
+    margin-bottom: 10px;
+    width: 55%;
+}
+
+#code, #EUC {
+    width: 8rem;
+    font-weight: bold;
+    cursor: default;
+}
+
+#code:hover, #EUC:hover {
+    background: #f2f2f2;
+}
+
+.vote-now-btn {
+    margin-right: 1rem;
+    width: 8rem;
+}
+
+.display-pic {
+    float: right;
+}
+
+.index-page {
+    padding-top: 2rem;
+}
+
+/* make padding 5rem for desktop */
+@media (min-width: 768px) {
+    .index-page {
+        padding-top: 5rem;
+    }
+}
+
+.pandora {
+  display: none;
+}
+
+#check-btn, #vote {
+    margin-top: 1rem;
+    display: block;
+}
+
+.teacher-details {
+  background-color: #e1dede; /* #dde7da */
+  padding: 5px;
+  margin: auto;
+  width: 20rem;
+}
+
+.teacher-details-2 {
+  background-color: whitesmoke;
+  padding: 5px;
+  margin: auto;
+  width: 20rem;
+}
